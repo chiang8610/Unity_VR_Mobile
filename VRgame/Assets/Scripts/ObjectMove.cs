@@ -50,6 +50,6 @@ public class ObjectMove : MonoBehaviour
 
     public void  StartMove()
     {
-        StartCoroutine ( Move ( ));
+        StartCoroutine ((IEnumerator)Move ( ));
     }
 }

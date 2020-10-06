@@ -145,11 +145,11 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 218320587}
-          m_MethodName: 
+          m_MethodName: StartMove
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -625,6 +625,11 @@ PrefabInstance:
       propertyPath: point
       value: 
       objectReference: {fileID: 14241233}
+    - target: {fileID: 5765654283185377550, guid: ca7ff24101826a141b95bc27f8d49174,
+        type: 3}
+      propertyPath: speed
+      value: 7.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7ff24101826a141b95bc27f8d49174, type: 3}
 --- !u!114 &218320587 stripped
@@ -1551,7 +1556,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.46226418, g: 0.2859813, b: 0.032707367, a: 1}
   m_Intensity: 0.5
-  m_Range: 20
+  m_Range: 45.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2451,13 +2456,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0d7803a94ab17d64e9c265dcc19ad878, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.125
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 170
+  Priority: 208
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
