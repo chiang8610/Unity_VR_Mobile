@@ -4,6 +4,7 @@ using UnityEngine;
 public class ObjectFall : ObjectBase
 {
     private Rigidbody rig;
+    private ParticleSystem sys;
 
     protected override void Awake()
     {
@@ -18,9 +19,11 @@ public class ObjectFall : ObjectBase
         rig.useGravity = true;                                                            //啟動重力
 
         yield return new WaitForSeconds(delay);                             //延遲
-       
+
         aud.enabled = false;                                                              //喇叭 啟動 = 否
 
-       
+
     }
+
+ 
 }

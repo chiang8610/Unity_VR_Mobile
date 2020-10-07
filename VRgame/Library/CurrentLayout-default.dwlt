@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 521}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 778
-  m_MinSize: {x: 708, y: 471}
-  m_MaxSize: {x: 18003, y: 14021}
+  m_MinSize: {x: 708, y: 492}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 59
+  controlID: 33
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,10 +166,10 @@ MonoBehaviour:
     y: 0
     width: 374
     height: 778
-  m_MinSize: {x: 232, y: 471}
-  m_MaxSize: {x: 10002, y: 14021}
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 65
+  controlID: 72
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -351,20 +351,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - "Assets/\u7D20\u6750"
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - "Assets/\u7D20\u6750"
+  - Assets/Scripts
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\Unity_VR_Mobile\VRgame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce3c0000
-    m_LastClickedID: 15566
-    m_ExpandedIDs: 000000009a3c00009c3c00009e3c0000a03c000000ca9a3b
+    m_SelectedIDs: c83c0000
+    m_LastClickedID: 15560
+    m_ExpandedIDs: 00000000963c0000983c00009a3c00009c3c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,7 +392,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009a3c00009c3c00009e3c0000a03c0000
+    m_ExpandedIDs: 00000000963c0000983c00009a3c00009c3c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,10 +506,10 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMin: 1
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
-    m_HSlider: 1
-    m_VSlider: 1
+    m_HSlider: 0
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -576,9 +576,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.6676884, y: 4.572609, z: -4.7919846}
+    m_Target: {x: 1.2393103, y: 0.756378, z: 3.7264762}
     speed: 2
-    m_Value: {x: -2.6676884, y: 4.572609, z: -4.7919846}
+    m_Value: {x: 1.2393103, y: 0.756378, z: 3.7264762}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -624,13 +624,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.19617788, y: -0.78799593, z: 0.4921554, w: -0.31399408}
+    m_Target: {x: 0.026799072, y: -0.77237284, z: 0.032728743, w: 0.63394386}
     speed: 2
-    m_Value: {x: -0.19615509, y: -0.7879044, z: 0.4920982, w: -0.3139576}
+    m_Value: {x: 0.026795939, y: -0.77228254, z: 0.032724917, w: 0.6338697}
   m_Size:
-    m_Target: 1.393996
+    m_Target: 4.9060044
     speed: 2
-    m_Value: 1.393996
+    m_Value: 4.9060044
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -684,9 +684,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 44deffff5cdeffff5edfffff6afbffff
+      m_SelectedIDs: 48fbffff
+      m_LastClickedID: -1208
+      m_ExpandedIDs: 6afbffff7c360000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
