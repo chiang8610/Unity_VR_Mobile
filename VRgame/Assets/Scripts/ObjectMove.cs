@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 //要求元件(類型())
 //套用腳本時會執行
 [RequireComponent(typeof(AudioSource))]
@@ -15,6 +14,8 @@ public class ObjectMove : MonoBehaviour
     public AudioClip sound;
     [Header("音量")]
     public float volume = 1;
+    [Header("開始延遲時間"), Range(0, 5)]
+    public float delay = 0.1f;
 
     /// <summary>
     /// 喇叭
@@ -26,10 +27,16 @@ public class ObjectMove : MonoBehaviour
         aud = GetComponent<AudioSource>();
     }
 
-    private IEnumerable Move()
+    /// <summary>
+    ///移動 
+    /// </summary>
+    /// <returns></returns>
+    private IEnumerator Move()
     {
 
         GetComponent<Collider>().enabled = false;                                          //關閉碰撞器
+
+        yield return new WaitForSeconds(delay);
 
         aud.PlayOneShot(sound, volume);                                                          // 播放聲音
         Vector3 posA = transform.position;                                                         //A 點: 本物件(自己)
@@ -37,19 +44,19 @@ public class ObjectMove : MonoBehaviour
 
         while (posA != posB)                                                                               // 當 A 點 不等於 B 點
             {
+
             posA = Vector3.Lerp(posA, posB, speed * Time.deltaTime);             //插值(A 點， B 點，速度 * 一個影格的時間)
             transform.position = posA;                                                                  //本物件的座標 = A
             yield return null;                                                                                  //等待
 
-
             }
-
-      
 
     }
 
     public void  StartMove()
     {
-        StartCoroutine ((IEnumerator)Move ( ));
+        StartCoroutine (Move ( ));
     }
 }
+
+

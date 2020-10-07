@@ -628,7 +628,17 @@ PrefabInstance:
     - target: {fileID: 5765654283185377550, guid: ca7ff24101826a141b95bc27f8d49174,
         type: 3}
       propertyPath: speed
-      value: 7.5
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765654283185377550, guid: ca7ff24101826a141b95bc27f8d49174,
+        type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 8300000, guid: f0dc8ce91cfdf414c9627b82f11d2407, type: 3}
+    - target: {fileID: 5765654283185377550, guid: ca7ff24101826a141b95bc27f8d49174,
+        type: 3}
+      propertyPath: delay
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca7ff24101826a141b95bc27f8d49174, type: 3}
